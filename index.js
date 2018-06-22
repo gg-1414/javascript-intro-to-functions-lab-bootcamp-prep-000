@@ -15,7 +15,7 @@ function logShout(string) {
 }
 
 var spy = 'hello' 
-logShout(spy)
+spy == logShout(spy)
 spy = 'HELLO'
 logShout(spy)
 
