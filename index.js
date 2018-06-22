@@ -11,5 +11,5 @@ function logShout(string) {
 }
 
 shout('whats up');
-whisper('WHADDUP GRAMMY');
-logShout('does this work');
+// whisper('WHADDUP GRAMMY');
+// logShout('does this work');
