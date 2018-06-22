@@ -21,6 +21,6 @@ function logWhisper(string) {
   console.log(`${string}`.toLowerCase())
 }
 
-spy = 'HELLO'
+spy = 'HELLO';
 logWhisper(spy)
 
