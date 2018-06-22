@@ -19,3 +19,7 @@ logShout(spy)
 spy == 'HELLO'
 logShout(spy)
 
+function logWhisper(string) {
+  
+}
+
