@@ -13,5 +13,5 @@ function logShout(string) {
 
 const spy = 'hello' 
 logShout(spy)
-spy = 'HELLO'
+spy == 'HELLO'
 logShout(spy)
