@@ -10,5 +10,6 @@ function logShout(string) {
   console.log(`${string}`.toUpperCase)
 }
 
-const spy = 'hello'
-logShout(spy);
+shout('whats up')
+whisper('WHADDUP GRAMMY')
+logShout('does this work')
