@@ -20,6 +20,9 @@ spy == 'HELLO'
 logShout(spy)
 
 function logWhisper(string) {
-  
+  console.log(`${string}`.toLowerCase())
 }
+
+const spy = 'HELLO'
+logWhisper(spy)
 
