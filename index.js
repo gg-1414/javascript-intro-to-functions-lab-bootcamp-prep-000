@@ -16,8 +16,6 @@ function logShout(string) {
 
 const spy = 'hello' 
 logShout(spy)
-spy == 'HELLO'
-logShout(spy)
 
 function logWhisper(string) {
   console.log(`${string}`.toLowerCase())
