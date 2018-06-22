@@ -15,12 +15,12 @@ function logShout(string) {
 }
 
 const spy = 'hello';
-spy == logShout(spy);
 logShout(spy);
+spy == 'HELLO';
 
 function logWhisper(string) {
   console.log(`${string}`.toLowerCase());
 }
 
-logWhisper(spy)
+logWhisper(spy);
 
