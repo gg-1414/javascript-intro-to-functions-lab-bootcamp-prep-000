@@ -23,6 +23,6 @@ function logWhisper(string) {
   console.log(`${string}`.toLowerCase())
 }
 
-const spy = 'HELLO'
+spy = 'HELLO'
 logWhisper(spy)
 
