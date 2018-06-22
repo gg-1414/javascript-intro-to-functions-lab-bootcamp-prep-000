@@ -1,26 +1,25 @@
 function shout(string) {
-  return string.toUpperCase()
+  return string.toUpperCase();
 }
 
-shout('hello')
+shout('hello');
 
 function whisper(string) {
-  return string.toLowerCase()
+  return string.toLowerCase();
 }
 
-whisper('HELLO')
+whisper('HELLO');
 
 function logShout(string) {
-  console.log(`${string}`.toUpperCase())
+  console.log(`${string}`.toUpperCase());
 }
 
-var spy = 'hello' 
-spy == logShout(spy)
-spy = 'HELLO'
-logShout(spy)
+const spy = 'hello';
+spy == logShout(spy);
+logShout(spy);
 
 function logWhisper(string) {
-  console.log(`${string}`.toLowerCase())
+  console.log(`${string}`.toLowerCase());
 }
 
 logWhisper(spy)
